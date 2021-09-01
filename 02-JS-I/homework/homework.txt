@@ -1,0 +1,35 @@
+                         * Variables
+Una variable es una caja (que representa un espacio en la memoria principal del ordenador) y esta caja tiene un nombre. 
+La caja sirve para almacenar números, letras, palabras (las letras son caracteres y las palabras son Strings), 
+Cuando guardas un valor nuevo en la caja, el valor que guardaste antes cambia por el valor nuevo,
+por eso se le llama variable, ya que el valor que contiene la caja varía cuando se utiliza la variable (la caja).
+Podemos ver una variable en un juego, por ejemplo Candy Crush, encontramos la variable en las vidas, nos muestra 
+al iniciar que tenemos 5 vidas, si perdemos una vida, este valor de la variable (vida) cambia, nos resta 1 vida 
+y queda en la caja el valor 4. Si el juego no tiene variables jamás tendría fin.
+Podemos decir que una Variable es una caja que guarda valores, y son necesarias para todos. 
+Las variables debemos colocarles un nombre en especifico que la represente, para eso hay 3 reglas:
+
+1) El nombre tiene que ser corto y debe relacionarse con lo que va a ser utilizado, ya que si llamas a todos con 
+un mismo nombre no sabrás cuál utilizar.
+2) Escribir el nombre sin espacios, podemos utilizar mayúsculas como por ejemplo: puntajeCandyCrush, todas minúsculas 
+como por ejemplo puntajecandycrush, o utilizando (_) como por ejemplo puntaje_candy_crush. 
+3) No se utilizan símbolos, pero podemos utilizar números siempre y cuando no estén al inicio del nombre.
+
+	* Strings
+Un string o cadena de caracteres, es una secuencia de caracteres 
+(las letras de la ‘a’ a la ‘z’ y la ‘A’ a la ‘Z’, los números del ‘0’ al ‘9’, el espacio en blanco, símbolos diversos como ‘!’, ‘@’, ‘%’... etc, ), 
+que se almacena en un vector (es otro tipo de caja donde se guardan varios valores) o matriz de datos de una sola fila. 
+Estos se pueden almacenar de forma seguida como ‘palabra’ o en forma enlazada, letra por letra como ‘p’, ‘a’, ‘l’, ‘a’, ‘b’, ‘r’, ‘a’. 
+
+	* Funciones (argumentos, `return`)
+Una función es una especie de máquina donde ingresas un valor y te devuelve otro. podríamos decir que esta máquina 
+adentro tiene golosinas y tu ingresas una moneda y te devuelve un caramelo.
+Para que la máquina funcione, se deben incluir unos parámetros, esta función también permite incluir más de un valor en una función, 
+son nuestros datos de entrada o argumentos. 
+return es la unica forma de acceder a la función para que nos devuelva lo que queremos, ya que tratar de pedir con console.log nos dará undefined. 
+
+	* Declaraciones `if`
+Es la forma que le decimos a la función que identifique cual es verdadero ó falso. si le decimos que nos diga si un valor es mayor o menor 
+es con el operador de control de flujo y comparación. 'if' .  
+
+	* Valores booleanos (`true`, `false`)
